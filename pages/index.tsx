@@ -79,7 +79,7 @@ export default function Home() {
       <footer>
         <div className={styles.socials}>
           <a
-            href="https://github.com/hiroshi-jp/2048"
+            href="https://github.com/jp-hiroshi/2048"
             target="_blank"
             rel="noopener"
           >

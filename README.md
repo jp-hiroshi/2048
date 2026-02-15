@@ -76,7 +76,7 @@ Output is generated in the `out` folder (static export).
 
 ## Author
 
-**Hiroshi** — [GitHub](https://github.com/hiroshi-jp) · [LinkedIn](https://www.linkedin.com/in/hiroshi-m)
+**Hiroshi** — [GitHub](https://github.com/jp-hiroshi) · [LinkedIn](https://www.linkedin.com/in/hiroshi-m)
 
 ## License
 
