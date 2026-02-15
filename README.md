@@ -1,53 +1,83 @@
-# 2048-in-react
+# 2048
 
-[![Open issues][issues-badge]][issues-url]
-[![CI][lint-badge]][lint-url]
-[![CI][test-badge]][test-url]
-[![TypeScript][typescript-badge]][typescript-url]
-
-This is a fully functional clone of the popular 2048 game, built using React and Next.js. Not only does it offer smooth animations and works on mobile devices, but it's also a fantastic learning resource for developers. Whether you're here to play, contribute, or learn, this project has something for everyone.
-
-If you're interested in mastering React by building this game step-by-step, check out the course linked below!
-
-[![](.docs/demo.gif)](https://mateuszsokola.github.io/2048-in-react/)
-
-## [Play 2048 💥](https://mateuszsokola.github.io/2048-in-react/)
+A fully functional [2048](https://play2048.co/) game built with **Next.js**, **React**, and **TypeScript**. Play in the browser with smooth animations and a responsive layout.
 
 ## Features
 
-- Fully-functional 2048 clone
-- Animations
-- Supports **keyboard** and **touch** events
+- **Classic 2048 gameplay** — Combine tiles to reach 2048 and beyond
+- **Smooth animations** — Tile movement and merge transitions
+- **Responsive design** — Works on mobile and desktop
+- **Keyboard & touch** — Arrow keys and swipe support
+- **Score tracking** — Live score and win/lose states
+- **Static export** — Deploy anywhere (e.g. GitHub Pages, Vercel)
 
-## Development
+## Tech stack
 
-_Easily set up a local development environment!_
+- [Next.js 14](https://nextjs.org/) (App Router compatible structure with `pages/`)
+- [React 18](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- CSS Modules
 
-Just start dev server on [localhost](http://localhost:3000):
+## Getting started
 
-- clone
-- `npm install`
-- `npm run dev`
+### Prerequisites
 
-**Start coding!** 🎉
+- Node.js 18+ (see [.nvmrc](.nvmrc) if using nvm)
 
-## Build your own 2048 Game! 🚀
+### Install
 
-Want to learn how to build this game from scratch using React & Next.js? I've got you covered! This project is part of an online course where I guide you through the entire process, step-by-step.
+```bash
+npm install
+```
 
-Whether you're a beginner looking to enhance your skills or an experienced developer seeking a fun project, this course will take you through the core concepts of React while building a fully functional game.
+### Development
 
-[![Build 2048 Game in React](https://assets.mateu.sh/assets/github-2048-in-react-readme)](https://assets.mateu.sh/r/github-2048-in-react-readme)
+```bash
+npm run dev
+```
 
-## Support
+Open [http://localhost:3000](http://localhost:3000) to play.
 
-If you encounter any issues or have suggestions, feel free to open an issue. Your feedback is always appreciated!
+### Build
 
-[lint-badge]: https://github.com/mateuszsokola/2048-in-react/actions/workflows/lint.yml/badge.svg
-[lint-url]: https://github.com/mateuszsokola/2048-in-react/actions/workflows/actions/workflows/lint.yml
-[test-badge]: https://github.com/mateuszsokola/2048-in-react/actions/workflows/test.yml/badge.svg
-[test-url]: https://github.com/mateuszsokola/2048-in-react/actions/workflows/test.yml
-[issues-badge]: https://img.shields.io/github/issues/mateuszsokola/2048-in-react
-[issues-url]: https://github.com/mateuszsokola/2048-in-react/issues
-[typescript-badge]: https://badges.frapsoft.com/typescript/code/typescript.svg?v=101
-[typescript-url]: https://github.com/microsoft/TypeScript
+```bash
+npm run build
+```
+
+Output is generated in the `out` folder (static export).
+
+### Other scripts
+
+| Command           | Description        |
+| ----------------- | ------------------ |
+| `npm start`       | Serve production build |
+| `npm run lint`    | Run ESLint         |
+| `npm run format`  | Format with Prettier |
+| `npm run check-code` | Check code style |
+| `npm test`        | Run tests (watch)  |
+| `npm run test-coverage` | Tests with coverage |
+
+## How to play
+
+1. Use **arrow keys** (or swipe on touch devices) to move tiles.
+2. Tiles with the same number **merge** when they touch.
+3. Reach the **2048** tile to win (you can keep playing for a higher score).
+4. The game ends when no moves are possible.
+
+## Project structure
+
+```
+├── components/     # Board, Tile, Score, Splash
+├── pages/          # Next.js pages (index, _document)
+├── styles/         # Global and module CSS
+├── constants.ts    # Game config (grid size, animation durations)
+└── __tests__/      # Jest tests
+```
+
+## Author
+
+**Hiroshi** — [GitHub](https://github.com/hiroshi-jp) · [LinkedIn](https://www.linkedin.com/in/hiroshi-sakai-3b36b1200/)
+
+## License
+
+MIT

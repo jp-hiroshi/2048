@@ -1,16 +1,16 @@
 :root {
   --pixel-size: 8px;
 
-  /* Backgrounds */
-  --primary-background: #faf8ef;
-  --secondary-background: #b59d87;
-  --cell-background: #cebda6;
-  --tile-background: #eee4da;
-  --button-background: #8f7a66;
+  /* Backgrounds – bright */
+  --primary-background: #fff8e7;
+  --secondary-background: #0ea5e9;
+  --cell-background: #bae6fd;
+  --tile-background: #fef9c3;
+  --button-background: #f97316;
 
   /* Colors */
-  --primary-text-color: #776e65;
-  --secondary-text-color: #f9f6f2;
+  --primary-text-color: #1e293b;
+  --secondary-text-color: #ffffff;
 }
 
 body {
