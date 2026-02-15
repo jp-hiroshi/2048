@@ -90,7 +90,7 @@ export default function Home() {
               height={32}
             />
           </a>
-          <a href="https://www.linkedin.com/in/hiroshi-sakai-3b36b1200/" target="_blank" rel="noopener">
+          <a href="https://www.linkedin.com/in/hiroshi-m" target="_blank" rel="noopener">
             <Image
               src="social-linkedin.svg"
               alt="Hiroshi on LinkedIn"
